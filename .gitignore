@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# =====================================
+# Virelle - Project-specific exclusions
+# =====================================
+
+# Datasets
+data/raw/
+data/processed/
+
+# Trained ML models and artifacts
+models/
+*.pkl
+*.joblib
+
+# Local environment variables
+.env.*
+!.env.example
+
+# macOS files
+.DS_Store
