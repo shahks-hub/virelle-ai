@@ -1,0 +1,7 @@
+name: virelle
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+prefix: /Users/kachu/opt/anaconda3/envs/virelle
+
